@@ -18,5 +18,5 @@ class PuntoAccesoAP:
         print("desactivar() ejecutado")
 
 # Ejemplo de uso:
-puntoaccesoap = PuntoAccesoAP("valor_0", "valor_1", "valor_2")
+puntoaccesoap = PuntoAccesoAP("WiFi_Libre", "98:5F:D3:AE:9C:72", "En mantenimiento")
 print(puntoaccesoap.__dict__)

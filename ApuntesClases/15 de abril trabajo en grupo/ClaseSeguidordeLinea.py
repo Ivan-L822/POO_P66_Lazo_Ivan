@@ -17,5 +17,5 @@ class SeguidorLinea:
         print("seguir_linea() ejecutado")
 
 # Ejemplo de uso:
-seguidorlinea = SeguidorLinea("valor_0", "valor_1")
+seguidorlinea = SeguidorLinea("0.5 m/s", "Desviado a la derecha")
 print(seguidorlinea.__dict__)

@@ -18,5 +18,5 @@ class Mascota:
         print("alimentar() ejecutado")
 
 # Ejemplo de uso:
-mascota = Mascota("valor_0", "valor_1", "valor_2")
+mascota = Mascota("Tobby", "Caniche", "8 años")
 print(mascota.__dict__)

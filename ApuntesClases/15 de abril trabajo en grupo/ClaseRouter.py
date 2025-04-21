@@ -18,5 +18,5 @@ class Router:
         print("desconectar() ejecutado")
 
 # Ejemplo de uso:
-router = Router("valor_0", "valor_1", "valor_2")
+router = Router("Wifi_Coffe", "172.17.146.185", "Activo")
 print(router.__dict__)

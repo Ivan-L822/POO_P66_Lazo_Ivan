@@ -18,5 +18,5 @@ class Animal:
         print("moverse() ejecutado")
 
 # Ejemplo de uso:
-animal = Animal("valor_0", "valor_1", "valor_2")
+animal = Animal("Delphinapterus leucas", "6 años", "Blanco")
 print(animal.__dict__)

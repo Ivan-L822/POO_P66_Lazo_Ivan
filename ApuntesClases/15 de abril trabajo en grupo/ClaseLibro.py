@@ -18,5 +18,5 @@ class Libro:
         print("leer() ejecutado")
 
 # Ejemplo de uso:
-libro = Libro("valor_0", "valor_1", "valor_2")
+libro = Libro("Probabilidad y estadistica", "Pedro Jose", "729")
 print(libro.__dict__)
