@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackContext
 class VistaBot:
     def __init__(self, controlador):
         self.controlador = controlador
-        self.app = ApplicationBuilder().token("7931784865:AAESjqpTO2Yx62fe1xyCGu0wm9ERnYMaAlQ").build()
+        self.app = ApplicationBuilder().token("Aqui Token").build()
 
     async def start(self, update: Update, context: CallbackContext) -> None:
         await update.message.reply_text("Bot listo. Usa /status, /suelo, /abrir o /cerrar.")
