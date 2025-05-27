@@ -54,7 +54,7 @@ def action(msg):
 
         telegram_bot.sendMessage (chat_id, message)
 
-telegram_bot = telepot.Bot('7931784865:AAESjqpTO2Yx62fe1xyCGu0wm9ERnYMaAlQ')
+telegram_bot = telepot.Bot('Aqui Token')
 
 print (telegram_bot.getMe())
 
